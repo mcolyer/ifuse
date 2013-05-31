@@ -54,7 +54,7 @@ static struct {
 	char *mount_point;
 	char *device_uuid;
 	char *service_name;
-	uint16_t port;
+	lockdownd_service_descriptor_t port;
 } opts;
 
 enum {
